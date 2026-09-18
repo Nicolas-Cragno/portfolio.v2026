@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: var(--space-0);
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body);
+  line-height: var(--line-height-body);
+}
+
+h1 {
+  margin: var(--space-0) var(--space-0) var(--space-4);
+  font-size: var(--font-size-heading);
+  font-weight: var(--font-weight-heading);
+  line-height: var(--line-height-heading);
+  overflow-wrap: anywhere;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+select,
+textarea,
+.card,
+.tag,
+.badge,
+.ui {
+  font-family: var(--font-ui);
+  font-size: inherit;
+}
+
+button,
+input,
+select,
+textarea,
+.card,
+.tag,
+.badge,
+dialog {
+  border-radius: var(--border-radius);
+}
+
+button {
+  min-height: var(--control-min-size);
+  padding: var(--control-padding-block) var(--control-padding-inline);
+  border: var(--border-width) solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: border-color var(--transition-duration) var(--transition-easing);
+}
+
+button:hover {
+  border-color: var(--color-primary);
+}
+
+a {
+  color: var(--color-primary);
+  text-underline-offset: var(--focus-offset);
+}
+
+a:hover {
+  color: var(--color-primary-hover);
+}
+
+:focus-visible {
+  outline: var(--focus-width) solid var(--color-focus);
+  outline-offset: var(--focus-offset);
+}
+
+.container {
+  width: 100%;
+  max-width: calc(var(--content-max-width) + 2 * var(--page-padding));
+  margin-inline: auto;
+  padding-inline: var(--page-padding);
+}
+
+.section {
+  min-height: var(--section-min-height);
+  padding-block: var(--section-padding);
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: max(var(--space-1), var(--grid-gap));
+}
+
+.cards-grid > * {
+  min-width: 0;
+}
+
+.card {
+  padding: var(--card-padding);
+  border: var(--border-width) solid var(--color-border);
+  background: var(--color-surface);
+}
+
+dialog {
+  width: calc(100% - 2 * var(--modal-viewport-gap));
+  max-width: var(--modal-max-width);
+  max-height: calc(100svh - 2 * var(--modal-viewport-gap));
+  margin: auto;
+  padding: var(--modal-padding);
+  overflow: auto;
+  border: var(--border-width) solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+dialog::backdrop {
+  background: var(--color-overlay);
+}

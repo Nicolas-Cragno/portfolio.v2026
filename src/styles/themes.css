@@ -1,0 +1,42 @@
+:root,
+:root[data-theme='light'] {
+  color-scheme: light;
+  --color-background: var(--white);
+  --color-surface: var(--ice);
+  --color-text: var(--ink);
+  --color-muted: var(--slate);
+  --color-border: var(--border-light);
+  --color-primary: var(--blue-600);
+  --color-primary-hover: var(--blue-700);
+  --color-on-primary: var(--white);
+  --color-focus: var(--blue-600);
+  --color-overlay: var(--overlay);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --color-background: var(--blue-950);
+    --color-surface: var(--blue-900);
+    --color-text: var(--pale);
+    --color-muted: var(--mist);
+    --color-border: var(--blue-800);
+    --color-primary: var(--blue-400);
+    --color-primary-hover: var(--blue-300);
+    --color-on-primary: var(--blue-950);
+    --color-focus: var(--blue-400);
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-background: var(--blue-950);
+  --color-surface: var(--blue-900);
+  --color-text: var(--pale);
+  --color-muted: var(--mist);
+  --color-border: var(--blue-800);
+  --color-primary: var(--blue-400);
+  --color-primary-hover: var(--blue-300);
+  --color-on-primary: var(--blue-950);
+  --color-focus: var(--blue-400);
+}
