@@ -16,6 +16,15 @@
   transform: translateY(0);
 }
 
+.icon {
+  color: var(--color-muted);
+  font-size: var(--font-size-icon);
+}
+
+.icon-negative{
+  color: var(--color-background);
+  font-size: var(--font-size-icon);
+}
 .site-header {
   position: sticky;
   top: 0;
@@ -133,6 +142,8 @@
 }
 
 .hero-location {
+  display: flex;
+  gap: var(--text-gap);
   margin: var(--space-0) var(--space-0) var(--space-5);
   color: var(--color-muted);
   font-size: var(--font-size-small);

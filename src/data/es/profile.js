@@ -6,12 +6,12 @@ export const profile = {
   description: 'Portfolio de Nicolás Cragno, Software Developer en Buenos Aires, Argentina.',
   navigation: {
     label: 'Navegación principal',
-    skip: 'Saltar al contenido',
+    skip: 'Ver contenido',
     openMenu: 'Abrir menú',
     closeMenu: 'Cerrar menú',
     language: 'Idioma',
-    lightTheme: 'Activar tema claro',
-    darkTheme: 'Activar tema oscuro',
+    lightTheme: 'Tema claro',
+    darkTheme: 'Tema oscuro',
     items: [
       { id: 'projects', label: 'Proyectos' },
       { id: 'experience', label: 'Experiencia' },
@@ -37,7 +37,6 @@ export const profile = {
     title: 'Sobre mí',
     eyebrow: 'Más allá del código',
     paragraphs: [
-      'Soy desarrollador de software y actualmente trabajo en el área de IT de Expreso Cantarini, donde desarrollo aplicaciones utilizadas en distintos procesos internos de la empresa.',
       'Me interesa especialmente entender cómo funciona un proceso, detectar sus problemas y pensar cómo trasladarlo a una aplicación que resulte realmente útil para quienes la utilizan. Además de mi trabajo profesional, participo en proyectos propios y colaborativos en GEBB Dev, explorando ideas relacionadas con gestión, comunidades y productos digitales.',
       'Actualmente estudio la Tecnicatura en Programación en UTN FRGP, donde continúo ampliando mis conocimientos de programación, bases de datos y desarrollo de software.',
       "Fuera de la programación, dos de mis principales intereses son el fútbol y la música. Actualmente formo parte del equipo de fútbol de la UTN FRGP y soy bajista de la banda Sobbrio's, con la cual nos presentamos esporádicamente para compartir lo que hacemos.",
@@ -45,8 +44,8 @@ export const profile = {
     ],
   },
   contactContent: {
-    title: '¿Hablamos?',
-    eyebrow: 'Contacto',
+    title: 'Contacto',
+    eyebrow: 'Donde encontrarme',
     description: 'Si querés conocer más sobre mi trabajo, conversar sobre una oportunidad o tenés un proyecto en el que pueda colaborar, podés contactarme por acá.',
     labels: { linkedin: 'LinkedIn', github: 'GitHub', email: 'Email', whatsapp: 'WhatsApp' },
   },

@@ -24,7 +24,7 @@ export const projectsContent = {
     metrics: 'Métricas',
     gallery: 'Galería',
     collaborators: 'Colaboradores',
-    web: 'Visitar web',
+    web: 'Visitar sitio',
     github: 'Ver en GitHub',
   },
 }

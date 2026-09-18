@@ -3,6 +3,7 @@
   --font-ui: Consolas, 'Liberation Mono', monospace;
   --font-size-body: 1rem;
   --font-size-heading: clamp(2rem, 5vw, 3.5rem);
+  --font-size-icon: 20px;
   --line-height-body: 1.6;
   --line-height-heading: 1.15;
   --font-weight-body: 400;
@@ -36,6 +37,7 @@
   --content-max-width: 1200px;
   --text-max-width: 68ch;
   --grid-gap: var(--space-4);
+  --text-gap: var(--space-1);
   --card-padding: var(--space-4);
   --control-padding-block: var(--space-2);
   --control-padding-inline: var(--space-4);

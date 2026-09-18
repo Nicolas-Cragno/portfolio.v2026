@@ -1,8 +1,15 @@
+import cantappLogo from "../logos/cantapp.png";
+import gfLogo from "../logos/gf.png";
+import miradageekLogo from "../logos/miradageek.png";
+import nexarLogo from "../logos/nexar.png";
+import sonarLogo from "../logos/sonar.png";
+
 export const projects = [
   {
     id: 'cantapp',
     name: 'Cantapp',
     featured: true,
+    logo: cantappLogo,
     imageDirectory: '/images/projects/cantapp/',
     client: 'Transportes Cantarini',
     period: 'Mar 2025 — Present',
@@ -22,11 +29,12 @@ export const projects = [
     id: 'nexar',
     name: 'Nexar',
     featured: true,
+    logo: nexarLogo,
     imageDirectory: '/images/projects/nexar/',
     client: 'Transcan Cargas',
     period: 'May 2026 — Present',
     status: 'In production · Initial real-world testing',
-    type: 'Collaboration',
+    type: 'Profesional',
     access: 'Private',
     description: 'Reliable driver account management and transport operations.',
     challenge: 'Replace Excel with consistent balances and transactions, sequential numbering and business rules.',
@@ -41,6 +49,7 @@ export const projects = [
     id: 'mirada-geek',
     name: 'Mirada Geek',
     featured: true,
+    logo: miradageekLogo,
     imageDirectory: '/images/projects/mirada-geek/',
     client: 'Mirada Geek',
     brand: 'GEBB Dev',
@@ -57,6 +66,7 @@ export const projects = [
     id: 'gf-futbol',
     name: 'GF Fútbol Web',
     featured: false,
+    logo: gfLogo,
     imageDirectory: '/images/projects/gf-futbol/',
     client: 'GF Fútbol',
     brand: 'GEBB Dev',
@@ -73,6 +83,7 @@ export const projects = [
     id: 'gf-futbol-app',
     name: 'GF Fútbol App',
     featured: false,
+    logo: gfLogo,
     imageDirectory: '/images/projects/gf-futbol-app/',
     client: 'GF Fútbol',
     brand: 'GEBB Dev',
@@ -88,6 +99,7 @@ export const projects = [
     id: 'sonar',
     name: 'SONAR',
     featured: false,
+    logo: sonarLogo,
     imageDirectory: '/images/projects/sonar/',
     brand: 'GEBB Dev',
     period: 'Aug 2026 — Present',

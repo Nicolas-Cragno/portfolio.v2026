@@ -1,17 +1,17 @@
 export const profile = {
   locale: 'en',
-  name: 'Nicolás Cragno',
+  name: 'Nicolas Cragno',
   role: 'Software Developer',
   location: 'Buenos Aires, Argentina',
   description: 'Portfolio of Nicolás Cragno, Software Developer based in Buenos Aires, Argentina.',
   navigation: {
     label: 'Main navigation',
-    skip: 'Skip to content',
+    skip: 'View content',
     openMenu: 'Open menu',
     closeMenu: 'Close menu',
     language: 'Language',
-    lightTheme: 'Switch to light theme',
-    darkTheme: 'Switch to dark theme',
+    lightTheme: 'Light theme',
+    darkTheme: 'Dark theme',
     items: [
       { id: 'projects', label: 'Projects' },
       { id: 'experience', label: 'Experience' },
@@ -37,7 +37,6 @@ export const profile = {
     title: 'About me',
     eyebrow: 'Beyond the code',
     paragraphs: [
-      'I’m a software developer working in the IT department at Expreso Cantarini, where I build applications used across the company’s internal operations.',
       'I’m particularly interested in understanding how a process works, identifying its pain points and turning it into an application that is useful to the people who rely on it. Alongside my professional work, I contribute to personal and collaborative projects under GEBB Dev, exploring ideas in management tools, communities and digital products.',
       'I’m currently studying for a technical degree in Programming at UTN FRGP, continuing to build my knowledge of programming, databases and software development.',
       "Outside programming, football and music are two of my main interests. I play for the UTN FRGP football team and play bass in Sobbrio's, a band with which I occasionally perform live to share our music.",
@@ -45,8 +44,8 @@ export const profile = {
     ],
   },
   contactContent: {
-    title: 'Let’s talk',
-    eyebrow: 'Contact',
+    title: 'Contact',
+    eyebrow: 'Where am I',
     description: 'If you’d like to learn more about my work, discuss an opportunity or explore a project I could contribute to, feel free to get in touch.',
     labels: { linkedin: 'LinkedIn', github: 'GitHub', email: 'Email', whatsapp: 'WhatsApp' },
   },
