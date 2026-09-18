@@ -5,6 +5,7 @@ import './styles/variables.css'
 import './styles/themes.css'
 import './styles/globals.css'
 import './styles/layout.css'
+import './styles/projects.css'
 import './styles/responsive.css'
 
 createRoot(document.getElementById('root')).render(

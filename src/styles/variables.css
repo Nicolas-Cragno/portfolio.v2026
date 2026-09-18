@@ -65,4 +65,13 @@
   --hero-image-max-height: 620px;
   --hero-text-width: 54ch;
   --anchor-offset: calc(var(--header-height) + var(--space-4));
+  --font-size-section: clamp(2rem, 4vw, 3rem);
+  --font-size-card-title: 1.5rem;
+  --font-size-detail-title: 1.125rem;
+  --project-card-padding: var(--space-5);
+  --project-modal-max-width: var(--content-max-width);
+  --project-modal-max-height: calc(100dvh - 2 * var(--modal-viewport-gap));
+  --modal-heading-size: clamp(1.5rem, 3vw, 2rem);
+  --modal-toolbar-z-index: 1;
+  --project-detail-gap: var(--space-5);
 }
