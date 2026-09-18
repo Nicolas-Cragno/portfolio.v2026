@@ -21,7 +21,6 @@ export const profile = {
   },
   hero: {
     introduction: 'I develop applications that solve real problems, turning manual processes and operational needs into simple, reliable digital tools tailored to each project.',
-    secondary: 'I currently develop applications in the IT department at Expreso Cantarini and study Programming at UTN FRGP.',
     projects: 'View projects',
     cv: 'CV',
     cvLabel: 'Open English CV in a new tab',

@@ -21,7 +21,6 @@ export const profile = {
   },
   hero: {
     introduction: 'Desarrollo aplicaciones orientadas a resolver problemas reales, transformando procesos manuales y necesidades operativas en herramientas digitales simples, confiables y adaptadas a cada proyecto.',
-    secondary: 'Actualmente trabajo desarrollando aplicaciones en el área de IT de Expreso Cantarini y estudio la Tecnicatura en Programación en UTN FRGP.',
     projects: 'Ver proyectos',
     cv: 'CV',
     cvLabel: 'Abrir CV en español en una pestaña nueva',
