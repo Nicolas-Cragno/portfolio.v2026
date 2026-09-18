@@ -50,4 +50,19 @@
   --focus-offset: 3px;
   --transition-duration: 150ms;
   --transition-easing: ease;
+  --font-size-small: 0.8125rem;
+  --font-size-role: clamp(1.4rem, 2.4vw, 2rem);
+  --font-size-hero: clamp(2.75rem, 5vw, 4.5rem);
+  --font-size-introduction: 1.125rem;
+  --letter-spacing-label: 0.06em;
+  --letter-spacing-heading: -0.045em;
+  --header-height: 76px;
+  --header-z-index: 10;
+  --skip-z-index: 20;
+  --hero-gap: clamp(var(--space-5), 4vw, var(--space-7));
+  --hero-min-height: min(820px, calc(100svh - var(--header-height)));
+  --hero-image-ratio: 3 / 2;
+  --hero-image-max-height: 620px;
+  --hero-text-width: 54ch;
+  --anchor-offset: calc(var(--header-height) + var(--space-4));
 }
