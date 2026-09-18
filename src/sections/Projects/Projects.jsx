@@ -8,7 +8,7 @@ export function Projects({ projects, content }) {
   const [selectedProject, setSelectedProject] = useState(null)
 
   return (
-    <section id="projects" className="projects-section section" aria-labelledby="projects-title">
+    <section id="projects" tabIndex={-1} className="projects-section section" aria-labelledby="projects-title">
       <div className="container">
         <div className="projects-heading">
           <p className="section-eyebrow">{content.eyebrow}</p>

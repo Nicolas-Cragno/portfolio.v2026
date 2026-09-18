@@ -57,6 +57,7 @@
   --letter-spacing-label: 0.06em;
   --letter-spacing-heading: -0.045em;
   --header-height: 76px;
+  --header-measured-height: var(--header-height);
   --header-z-index: 10;
   --skip-z-index: 20;
   --hero-gap: clamp(var(--space-5), 4vw, var(--space-7));
@@ -64,14 +65,20 @@
   --hero-image-ratio: 3 / 2;
   --hero-image-max-height: 620px;
   --hero-text-width: 54ch;
-  --anchor-offset: calc(var(--header-height) + var(--space-4));
+  --anchor-offset: calc(var(--header-measured-height) + var(--space-4));
   --font-size-section: clamp(2rem, 4vw, 3rem);
   --font-size-card-title: 1.5rem;
   --font-size-detail-title: 1.125rem;
-  --project-card-padding: var(--space-5);
+  --project-card-padding: clamp(var(--space-4), 2.5vw, var(--space-5));
   --project-modal-max-width: var(--content-max-width);
   --project-modal-max-height: calc(100dvh - 2 * var(--modal-viewport-gap));
   --modal-heading-size: clamp(1.5rem, 3vw, 2rem);
   --modal-toolbar-z-index: 1;
   --project-detail-gap: var(--space-5);
+  --content-column-gap: var(--space-7);
+  --content-row-gap: var(--space-5);
+  --experience-heading-size: clamp(1.5rem, 3vw, 2rem);
+  --contact-min-height: 60svh;
+  --modal-toolbar-height: 9rem;
+  --modal-toolbar-height-compact: 5rem;
 }

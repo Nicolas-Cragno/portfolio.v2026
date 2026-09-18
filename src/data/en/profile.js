@@ -32,6 +32,24 @@ export const profile = {
     },
   },
   footer: { links: 'Social links and contact', email: 'Email' },
+  experience: { title: 'Experience', eyebrow: 'Professional background' },
+  about: {
+    title: 'About me',
+    eyebrow: 'Beyond the code',
+    paragraphs: [
+      'I’m a software developer working in the IT department at Expreso Cantarini, where I build applications used across the company’s internal operations.',
+      'I’m particularly interested in understanding how a process works, identifying its pain points and turning it into an application that is useful to the people who rely on it. Alongside my professional work, I contribute to personal and collaborative projects under GEBB Dev, exploring ideas in management tools, communities and digital products.',
+      'I’m currently studying for a technical degree in Programming at UTN FRGP, continuing to build my knowledge of programming, databases and software development.',
+      "Outside programming, football and music are two of my main interests. I play for the UTN FRGP football team and play bass in Sobbrio's, a band with which I occasionally perform live to share our music.",
+      'I’m open to new professional opportunities, collaborations and freelance projects.',
+    ],
+  },
+  contactContent: {
+    title: 'Let’s talk',
+    eyebrow: 'Contact',
+    description: 'If you’d like to learn more about my work, discuss an opportunity or explore a project I could contribute to, feel free to get in touch.',
+    labels: { linkedin: 'LinkedIn', github: 'GitHub', email: 'Email', whatsapp: 'WhatsApp' },
+  },
   ecosystem: {
     name: 'GEBB Dev',
     description: 'An ecosystem of personal and collaborative projects in collaboration with Braian Pirelli.',
@@ -44,7 +62,7 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/nicolascragno/',
     github: 'https://github.com/nicolas-Cragno',
     email: 'nicolaslautaro.cragno@gmail.com',
-    whatsapp: '+54 11 3579 8416',
+    whatsapp: 'https://wa.me/541135798416',
   },
   assets: {
     hero: {

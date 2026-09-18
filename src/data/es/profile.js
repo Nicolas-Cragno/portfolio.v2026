@@ -32,6 +32,24 @@ export const profile = {
     },
   },
   footer: { links: 'Redes y contacto', email: 'Email' },
+  experience: { title: 'Experiencia', eyebrow: 'Trayectoria profesional' },
+  about: {
+    title: 'Sobre mí',
+    eyebrow: 'Más allá del código',
+    paragraphs: [
+      'Soy desarrollador de software y actualmente trabajo en el área de IT de Expreso Cantarini, donde desarrollo aplicaciones utilizadas en distintos procesos internos de la empresa.',
+      'Me interesa especialmente entender cómo funciona un proceso, detectar sus problemas y pensar cómo trasladarlo a una aplicación que resulte realmente útil para quienes la utilizan. Además de mi trabajo profesional, participo en proyectos propios y colaborativos en GEBB Dev, explorando ideas relacionadas con gestión, comunidades y productos digitales.',
+      'Actualmente estudio la Tecnicatura en Programación en UTN FRGP, donde continúo ampliando mis conocimientos de programación, bases de datos y desarrollo de software.',
+      "Fuera de la programación, dos de mis principales intereses son el fútbol y la música. Actualmente formo parte del equipo de fútbol de la UTN FRGP y soy bajista de la banda Sobbrio's, con la cual nos presentamos esporádicamente para compartir lo que hacemos.",
+      'Estoy abierto tanto a nuevas oportunidades profesionales como a colaboraciones y proyectos freelance.',
+    ],
+  },
+  contactContent: {
+    title: '¿Hablamos?',
+    eyebrow: 'Contacto',
+    description: 'Si querés conocer más sobre mi trabajo, conversar sobre una oportunidad o tenés un proyecto en el que pueda colaborar, podés contactarme por acá.',
+    labels: { linkedin: 'LinkedIn', github: 'GitHub', email: 'Email', whatsapp: 'WhatsApp' },
+  },
   ecosystem: {
     name: 'GEBB Dev',
     description: 'Ecosistema de proyectos personales y colaborativos en colaboración con Braian Pirelli.',
@@ -44,7 +62,7 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/nicolascragno/',
     github: 'https://github.com/nicolas-Cragno',
     email: 'nicolaslautaro.cragno@gmail.com',
-    whatsapp: '+54 11 3579 8416',
+    whatsapp: 'https://wa.me/541135798416',
   },
   assets: {
     hero: {

@@ -1,6 +1,6 @@
 export function Footer({ profile }) {
   return (
-    <footer className="site-footer" id="contact">
+    <footer className="site-footer">
       <div className="container footer-inner">
         <p className="footer-identity">{profile.name}<span aria-hidden="true"> · </span><span>{profile.role}</span></p>
         <nav className="footer-links" aria-label={profile.footer.links}>

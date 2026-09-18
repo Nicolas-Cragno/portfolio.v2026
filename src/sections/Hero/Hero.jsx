@@ -2,7 +2,7 @@ export function Hero({ profile, theme }) {
   const { hero, assets } = profile
 
   return (
-    <section className="hero container" id="hero" aria-labelledby="hero-title">
+    <section className="hero container" id="hero" tabIndex={-1} aria-labelledby="hero-title">
       <div className="hero-copy">
         <p className="hero-location ui"><span aria-hidden="true">↗</span> {profile.location}</p>
         <h1 id="hero-title">{profile.name}</h1>

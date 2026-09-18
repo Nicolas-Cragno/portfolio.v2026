@@ -1,0 +1,104 @@
+.content-section {
+  display: flex;
+  align-items: center;
+  border-top: var(--border-width) solid var(--color-border);
+}
+
+.content-layout {
+  display: grid;
+  gap: var(--content-row-gap) var(--content-column-gap);
+}
+
+.content-layout > * {
+  min-width: 0;
+}
+
+.content-heading h2 {
+  margin: var(--space-0);
+  font-size: var(--font-size-section);
+  line-height: var(--line-height-heading);
+  letter-spacing: var(--letter-spacing-heading);
+  overflow-wrap: anywhere;
+}
+
+.content-prose {
+  display: grid;
+  gap: var(--space-4);
+  max-width: var(--text-max-width);
+  overflow-wrap: anywhere;
+}
+
+.content-prose p {
+  margin: var(--space-0);
+}
+
+.experience-list {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.experience-entry {
+  border-left: var(--border-width) solid var(--color-primary);
+  padding-left: var(--space-4);
+}
+
+.experience-period {
+  margin: var(--space-0) var(--space-0) var(--space-3);
+  color: var(--color-muted);
+  font-size: var(--font-size-small);
+}
+
+.experience-entry h3 {
+  margin: var(--space-0) var(--space-0) var(--space-2);
+  font-size: var(--experience-heading-size);
+  line-height: var(--line-height-heading);
+}
+
+.experience-company {
+  margin: var(--space-0) var(--space-0) var(--space-5);
+  color: var(--color-primary);
+  font-size: var(--font-size-introduction);
+}
+
+.about-prose > p:last-child {
+  border-top: var(--border-width) solid var(--color-border);
+  padding-top: var(--space-4);
+  color: var(--color-primary);
+}
+
+.contact-section {
+  min-height: var(--contact-min-height);
+}
+
+.contact-description {
+  margin: var(--space-0) var(--space-0) var(--space-5);
+  max-width: var(--text-max-width);
+  font-size: var(--font-size-introduction);
+}
+
+.contact-links {
+  display: grid;
+  gap: var(--space-3);
+  list-style: none;
+  padding: var(--space-0);
+  margin: var(--space-0);
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: var(--control-min-size);
+  padding: var(--space-4);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--border-radius);
+  background: var(--color-surface);
+  font-family: var(--font-ui);
+  text-decoration: none;
+  transition: border-color var(--transition-duration) var(--transition-easing);
+}
+
+.contact-links a:hover {
+  border-color: var(--color-primary);
+}

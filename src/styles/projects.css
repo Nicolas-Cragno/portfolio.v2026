@@ -124,6 +124,7 @@
   max-height: var(--project-modal-max-height);
   padding: var(--space-0);
   overscroll-behavior: contain;
+  scroll-padding-top: var(--modal-toolbar-height);
 }
 
 .modal-toolbar {
@@ -158,6 +159,7 @@
 
 .modal-body {
   padding: var(--modal-padding);
+  overflow-wrap: anywhere;
 }
 
 .project-metadata {
